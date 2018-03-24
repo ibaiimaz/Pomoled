@@ -1,0 +1,48 @@
+/* .light {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  margin: 5px;
+  border: 1px solid #666;
+}
+
+.light.red {
+  background-color: red;
+}
+
+.light.yellow {
+  background-color: yellow;
+}
+
+.light.green {
+  background-color: green;
+}
+
+.light.off {
+  background-color: white;
+} */
+
+
+.container{
+  background: #000;
+  width: 132px;
+  height: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+}
+.light{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  opacity: 0.3;
+  padding: 10px;
+  border: 2px solid white;
+  margin: auto;
+  margin: 10px 10px;
+}
+.light-visible {opacity: 1;}
+
+.red {background-color: red;}
+.yellow {background-color: blue;}
+.green {background-color: #27e833;}
